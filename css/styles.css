@@ -239,7 +239,6 @@ h2 .accent {
   position: absolute;
   left: 1000px;
   top: 900px;
-  scale: 1.1;
   animation-name: spin-star;
   animation-duration: 1s;
   animation-iteration-count: infinite;
