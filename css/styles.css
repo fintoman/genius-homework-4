@@ -9,7 +9,6 @@
   font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
 }
 
@@ -378,7 +377,6 @@ h3 .hero-h3 {
   border-radius: 48px;
   padding: 24px 36px;
   position: relative;
-  overflow-у: auto;
 }
 
 /* footer */
@@ -475,7 +473,6 @@ footer {
   border-radius: 48px;
   padding: 100px 42px;
   position: relative;
-  overflow-у: auto;
 }
 
 .modal-btn-close {
