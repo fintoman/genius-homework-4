@@ -319,7 +319,7 @@ h2 .accent {
   flex-direction: column;
   margin-bottom: 96px;
 }
-#text-inf2 {
+.text-inf2 {
   text-align: center;
 }
 
@@ -338,7 +338,7 @@ h3 .hero-h3 {
   color: var(--color-primary-blue, #2b7fff);
 }
 
-#text-inf2 {
+.text-inf2 {
   color: #000;
   font-family: Roboto;
   font-size: 18px;
@@ -413,7 +413,7 @@ footer {
   margin-left: 40px;
 }
 
-#text-inf {
+.text-inf {
   color: var(--color-primary-dblue);
   font-family: Roboto;
   font-size: 22px;
@@ -422,7 +422,7 @@ footer {
   line-height: 38px; /* 172.727% */
 }
 
-#text-inf .beautyzone {
+.text-inf .beautyzone {
   color: var(--color-primary-dblue, #011c44);
   font-weight: 600;
 }
