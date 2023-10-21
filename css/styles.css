@@ -393,14 +393,14 @@ footer {
 }
 .bfooter img {
   position: absolute;
-  top: 0px;
+  scale: 0.8;
   color: var(--color-primary-dblue);
 }
 
 .img-photo {
   position: absolute;
   left: 1093px;
-  top: 68px;
+  top: 64px;
 }
 
 .container {
