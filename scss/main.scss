@@ -137,7 +137,6 @@ h2 .accent {
 }
 
 .main-foto {
-  position: relative;
   margin-left: 30px;
 }
 .main-foto2 {
@@ -154,9 +153,8 @@ h2 .accent {
 }
 
 .star2 {
-  position: absolute;
-  left: 1350px;
-  top: 600px;
+  position: relative;
+  right: 50px;
   animation-name: spin-star;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -173,9 +171,9 @@ h2 .accent {
 }
 
 .star1 {
-  position: absolute;
-  left: 1000px;
-  top: 900px;
+  position: relative;
+  right: 550px;
+  top: 380px;
   animation-name: spin-star;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -183,9 +181,9 @@ h2 .accent {
 }
 
 .star3 {
-  position: absolute;
-  left: 1340px;
-  top: 840px;
+  position: relative;
+  top: 300px;
+  right: 200px;
   animation-name: spin-star;
   animation-duration: 1s;
   animation-iteration-count: infinite;
