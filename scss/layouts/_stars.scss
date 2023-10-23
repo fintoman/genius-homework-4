@@ -1,0 +1,31 @@
+.star1 {
+  position: relative;
+  right: 550px;
+  top: 380px;
+  animation-name: spin-star;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  flex-shrink: 0;
+}
+
+.star2 {
+  position: relative;
+  right: 50px;
+  animation-name: spin-star;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  flex-shrink: 0;
+}
+
+.star3 {
+  position: relative;
+  top: 300px;
+  right: 200px;
+  animation-name: spin-star;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  flex-shrink: 0;
+}
