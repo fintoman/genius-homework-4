@@ -1,21 +1,13 @@
 @import './base';
 
 @import './utils/fonts';
+@import './utils/keyframes';
 
 @import './layouts/stars';
 @import './layouts/header';
 
 @import './components/links';
 @import './components/buttons';
-
-@keyframes spin-star {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /* our */
 
