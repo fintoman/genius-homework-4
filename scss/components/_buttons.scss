@@ -1,0 +1,46 @@
+.button {
+  color: #ffffff;
+  border-radius: 32px;
+  background-color: var(--color-primary-blue);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 14px;
+  border: 2px solid #2b7fff;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.button:hover {
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 32px;
+  border: 2px solid #2b7fff;
+  cursor: pointer;
+  color: #011c44;
+  background-color: #fff;
+}
+
+.arr-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  stroke: black;
+  fill: #ffffff;
+  text-decoration: none;
+}
+
+.arr-button:hover .arr-arrow {
+  fill: var(--color-primary-blue);
+  stroke: #ffffff;
+  transition: fill 0.3s ease;
+}
