@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(1, 31, 74, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  max-height: 500px;
+  background-color: var(--color-primary-dblue);
+  background-image: url(/images/bkgmodal.png);
+  border-radius: 48px;
+  padding: 100px 42px;
+  position: relative;
+}
+
+.modal-btn-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.zag {
+  color: #fff;
+  text-align: center;
+  font-family: 'Play';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+  margin-top: -50px;
+}
+.opus {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bez {
+  color: var(--color-primary-blue);
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

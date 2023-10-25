@@ -1,0 +1,46 @@
+.card-cont {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  height: 130px;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background-color: #fff;
+
+  width: 250px;
+  flex-direction: column;
+  margin-bottom: 96px;
+}
+.text-inf2 {
+  text-align: center;
+}
+
+h3 {
+  color: var(--color-primary-dblue, #011c44);
+  text-align: center;
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+h3 .hero-h3 {
+  color: var(--color-primary-blue, #2b7fff);
+}
+
+.text-inf2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
