@@ -63,3 +63,18 @@ h2 {
   font-weight: 700;
   line-height: normal;
 }
+
+h3 {
+  color: var(--color-primary-dblue, #011c44);
+  text-align: center;
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+h3 .hero-h3 {
+  color: var(--color-primary-blue, #2b7fff);
+}
