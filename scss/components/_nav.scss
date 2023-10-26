@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  gap: 40px;
+  margin-top: 18px;
+
+  &__link {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+
+  &__link:hover {
+    color: var(--color-primary-blue);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
