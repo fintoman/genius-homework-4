@@ -39,10 +39,10 @@
   stroke: black;
   fill: #ffffff;
   text-decoration: none;
-}
 
-.arr-button:hover .arr-arrow {
-  fill: var(--color-primary-blue);
-  stroke: #ffffff;
-  transition: fill 0.3s ease;
+  &:hover .arr-arrow {
+    fill: var(--color-primary-blue);
+    stroke: #ffffff;
+    transition: fill 0.3s ease;
+  }
 }
