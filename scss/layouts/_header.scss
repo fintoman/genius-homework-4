@@ -18,49 +18,23 @@
   margin-left: 244px;
 }
 
-h1 {
-  color: var(--color-primary-blue);
-  font-family: Play;
-  font-size: 140px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 114px; /* 81.429% */
-  text-transform: capitalize;
-  margin-bottom: 40px;
-}
-
-/* main info */
-h2 {
-  font-family: Play;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-h2 .accent {
-  color: var(--color-primary-blue);
-  text-transform: capitalize;
-}
-
 .main-inf {
   display: flex;
   gap: 28px;
   margin-left: 100px;
   justify-content: center;
-}
 
-.main-text {
-  padding-top: 40px;
-  width: 700px;
-  display: block;
+  &__main-text {
+    padding-top: 40px;
+    display: block;
+  }
 }
 
 .main-foto {
-  margin-left: 150px;
+  margin-left: 10px;
 }
 .main-foto2 {
-  margin-left: 350px;
+  margin-left: 180px;
   margin-bottom: 200px;
 }
 .grad2 {

@@ -44,3 +44,22 @@ a {
   height: 1px;
   overflow: hidden;
 }
+
+h1 {
+  color: var(--color-primary-blue);
+  font-family: Play;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px; /* 81.429% */
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
