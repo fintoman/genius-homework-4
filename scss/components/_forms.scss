@@ -10,33 +10,32 @@
 
 .form-input {
   display: block;
-  width: 100%;
+  width: 80%;
   padding: 18px 32px;
   border-radius: 32px;
   border: 2px solid var(--color-secondary-gr2);
   background-color: transparent;
   color: var(--color-primary-white);
-}
 
-.form-input:focus {
-  border-color: var(--color-primary-white);
-  outline: none;
-  color: var(--color-primary-white);
-}
+  &__:focus {
+    border-color: var(--color-primary-white);
+    outline: none;
+    color: var(--color-primary-white);
+  }
 
-.form-input::placeholder {
-  font-size: 13px;
-  line-height: normal;
-  color: var(--color-primary-white);
-  padding-left: 32px;
-  width: 310px;
-  height: 52px;
-}
+  &__::placeholder {
+    font-size: 13px;
+    line-height: normal;
+    color: var(--color-primary-white);
+    padding-left: 32px;
+    width: 310px;
+    height: 52px;
+  }
 
-.form-input:focus::placeholder {
-  font-size: 13px;
+  &__:focus::placeholder {
+    font-size: 13px;
+  }
 }
-
 .form-terms {
   color: var(--color-secondary-gr2);
   text-align: center;
