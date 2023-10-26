@@ -16,4 +16,22 @@
   border-radius: 48px;
   padding: 24px 36px;
   position: relative;
+
+  &__opus {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    &--bez {
+      color: var(--color-primary-blue);
+      font-family: 'Roboto';
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
 }
