@@ -3,9 +3,9 @@
   max-width: 310px;
   max-height: 320px;
   margin: 24px auto;
-}
-.form-label {
-  display: block;
+  &__form-field--form-label {
+    display: block;
+  }
 }
 
 .form-input {
