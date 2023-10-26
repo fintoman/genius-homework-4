@@ -12,16 +12,18 @@
   transition-property: color;
   transition-duration: 0.2s;
   transition-timing-function: linear;
-}
+  font-weight: 600;
 
-.button:hover {
-  padding: 16px 32px;
-  gap: 10px;
-  border-radius: 32px;
-  border: 2px solid #2b7fff;
-  cursor: pointer;
-  color: #011c44;
-  background-color: #fff;
+  &:hover {
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 2px solid #2b7fff;
+    cursor: pointer;
+    color: #011c44;
+    background-color: #fff;
+    font-weight: 600;
+  }
 }
 
 .arr-button {
