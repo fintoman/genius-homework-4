@@ -44,13 +44,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-}
-.form-terms-link {
-  color: var(--color-secondary-gr2);
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  text-decoration-line: underline;
+  &__link {
+    color: var(--color-secondary-gr2);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration-line: underline;
+  }
 }
