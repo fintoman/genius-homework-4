@@ -23,7 +23,7 @@
     height: 24px;
     width: 24px;
     fill: var(#ffffff);
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-tablet) {
       display: none;
     }
   }
