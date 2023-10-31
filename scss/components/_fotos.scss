@@ -1,4 +1,7 @@
 .main-fot {
+  @media screen and (max-width: $bp-tablet) {
+    display: none;
+  }
   &__main-foto {
     margin-left: 10px;
   }
