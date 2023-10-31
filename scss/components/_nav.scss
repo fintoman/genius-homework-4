@@ -1,7 +1,11 @@
 .nav {
-  display: flex;
-  gap: 40px;
-  margin-top: 18px;
+  display: none;
+
+  @media screen and (min-width: $bp-desktop) {
+    display: flex;
+    gap: 40px;
+    margin-top: 18px;
+  }
 
   &__link {
     color: black;

@@ -12,6 +12,9 @@
   background-position: top right;
   height: 657px;
 
+  @media screen and (min-width: $bp-desktop) {
+  }
+
   &__header-section {
     &__title-inf {
       margin-left: 244px;
