@@ -1,4 +1,9 @@
 .logo {
   display: flex;
-  margin-left: 100px;
+  padding: 12px;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin-left: 100px;
+    display: block;
+  }
 }
