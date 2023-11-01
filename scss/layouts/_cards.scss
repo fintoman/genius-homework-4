@@ -2,6 +2,12 @@
   display: flex;
   gap: 56px;
   justify-content: center;
+
+  @media screen and (max-width: $bp-tablet) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   &__cards {
     display: flex;
     height: 130px;
@@ -10,7 +16,6 @@
     align-items: center;
     border-radius: 32px;
     background-color: #fff;
-
     width: 250px;
     flex-direction: column;
     margin-bottom: 96px;
