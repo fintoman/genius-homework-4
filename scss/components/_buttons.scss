@@ -51,6 +51,10 @@
   fill: #ffffff;
   text-decoration: none;
 
+  @media screen and (max-width: $bp-tablet) {
+    display: none;
+  }
+
   &:hover .arr-arrow {
     fill: var(--color-primary-blue);
     stroke: #ffffff;
