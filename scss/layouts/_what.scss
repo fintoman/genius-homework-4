@@ -1,5 +1,14 @@
 #what {
-  @media screen and (max-width: $bp-desktop) {
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+#our {
+  @media screen and (max-width: $bp-tablet) {
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
