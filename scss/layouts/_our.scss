@@ -7,23 +7,15 @@
   &__our-cards {
     margin-left: 32px;
     margin-right: 32px;
-    display: flex;
+    display: block;
     gap: 16px;
-
-    @media screen and (max-width: $bp-tablet) {
-      flex-wrap: wrap;
-    }
-
-    &--big {
-      border-bottom-left-radius: 130px;
-      border-top-right-radius: 130px;
-      border-top-left-radius: 6px;
-      border-bottom-right-radius: 6px;
-      box-shadow: 1px 1px 5px 5px var(--color-primary-blue);
-      transition: transform 2s;
-    }
-    &--big:hover {
-      transform: scale(1.05);
-    }
   }
+  // &__img {
+  //   position: absolute;
+  //   flex-direction: ;
+  // }
+}
+
+.swipes {
+  overflow: hidden;
 }
