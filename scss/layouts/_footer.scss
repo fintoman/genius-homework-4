@@ -2,40 +2,77 @@
   background-color: #011c44;
   background-image: url(../images/bfooter.png);
   background-repeat: no-repeat;
-}
 
-.container {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 186px;
-  margin: 56px 100px 56px 100px;
-  position: relative;
-  line-height: 26px;
-  &__link2 {
-    color: #ffffff;
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-  }
-  &__socpac {
-    margin-left: 40px;
-  }
-  &__copy {
-    color: #747272;
-    font-family: Roboto;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-  }
-}
+  &__bfooter {
+    position: absolute;
+    scale: 0.8;
+    color: var(--color-primary-dblue);
 
-.bfooter {
-  position: absolute;
-  scale: 0.8;
-  color: var(--color-primary-dblue);
+    @media screen and (max-width: $bp-desktop) {
+      display: none;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 186px;
+      margin: 56px 100px 56px 100px;
+      position: relative;
+      line-height: 26px;
+      flex-direction: row;
+    }
+    &--contrs {
+      display: none;
+      @media screen and (min-width: $bp-desktop) {
+        display: block;
+      }
+    }
+
+    &--link2 {
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+    }
+    &--socpac {
+      display: flex;
+      @media screen and (min-width: $bp-desktop) {
+        margin-left: 40px;
+      }
+    }
+    &--copy {
+      color: #747272;
+      font-family: Roboto;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+
+      @media screen and (min-width: $bp-tablet) {
+      }
+    }
+    &--img-photo {
+      display: none;
+
+      @media screen and (min-width: $bp-desktop) {
+        display: block;
+        position: absolute;
+        left: 1093px;
+        top: 58px;
+      }
+    }
+  }
 }
