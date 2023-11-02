@@ -1,10 +1,13 @@
 .footer {
+  margin-top: -85px;
+  padding-top: 20px;
   text-align: center;
   background-color: #011c44;
   background-image: url(../images/bfooter.png);
   background-repeat: no-repeat;
 
   @media screen and (min-width: $bp-desktop) {
+    margin-top: 94px;
     text-align: left;
   }
 
