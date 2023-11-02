@@ -1,0 +1,39 @@
+.formats-section {
+  &__slider {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+  }
+  &__containers {
+    overflow: hidden;
+  }
+  &__list {
+    margin-bottom: 32px;
+  }
+}
+
+.arr-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  stroke: black;
+  fill: #ffffff;
+  text-decoration: none;
+
+  @media screen and (max-width: $bp-desktop) {
+    display: none;
+  }
+
+  &:hover .arr-arrow {
+    fill: var(--color-primary-blue);
+    stroke: #ffffff;
+    transition: fill 0.3s ease;
+  }
+}

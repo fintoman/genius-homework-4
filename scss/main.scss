@@ -6,7 +6,7 @@
 @import './utils/variables';
 
 @import './layouts/stars';
-@import './layouts/our';
+// @import './layouts/our';
 @import './layouts/cards';
 @import './layouts/contacts-form';
 @import './layouts/backdrop';
@@ -16,6 +16,7 @@
 @import './layouts/bfooter';
 @import './layouts/what';
 @import './layouts/mobile-menu';
+@import './layouts/formats-section';
 
 @import './components/nav';
 @import './components/buttons';
@@ -24,3 +25,4 @@
 @import './components/head-container';
 @import './components/fotos';
 @import './components/logo';
+@import './components/format-card';

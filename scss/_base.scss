@@ -75,3 +75,15 @@ h3 {
 h3 .hero-h3 {
   color: var(--color-primary-blue, #2b7fff);
 }
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.containers {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
