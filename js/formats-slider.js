@@ -19,7 +19,7 @@ const swiper = new Swiper('.swiper-container', {
   },
 
   navigation: {
-    nextEl: '.arr-button.next',
-    prevEl: '.arr-button.prev',
+    nextEl: '.formats-section__button.next',
+    prevEl: '.formats-section__button.prev',
   },
 });

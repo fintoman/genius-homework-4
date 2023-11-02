@@ -11,6 +11,10 @@
   &__list {
     margin-bottom: 32px;
     padding: 0px;
+
+    @media screen and (max-width: $bp-desktop) {
+      padding: 20px;
+    }
   }
 }
 
