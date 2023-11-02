@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: #011c44;
   background-image: url(../images/bfooter.png);
   background-repeat: no-repeat;
@@ -32,4 +32,10 @@ footer {
     line-height: normal;
     text-decoration: none;
   }
+}
+
+.bfooter {
+  position: absolute;
+  scale: 0.8;
+  color: var(--color-primary-dblue);
 }
