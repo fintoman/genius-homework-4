@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper-container', {
   loop: true,
-  slidesPerView: 1,
-  spaceBetween: 20,
+  slidesPerView: 3,
+  spaceBetween: 16,
   breakpoints: {
     768: {
       slidesPerView: 2,
@@ -19,7 +19,7 @@ const swiper = new Swiper('.swiper-container', {
   },
 
   navigation: {
-    nextEl: '.formats-section__button.next',
-    prevEl: '.formats-section__button.prev',
+    nextEl: '.arr-button.next',
+    prevEl: '.arr-button.prev',
   },
 });

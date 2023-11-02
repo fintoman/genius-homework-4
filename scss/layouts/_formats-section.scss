@@ -7,15 +7,16 @@
   }
   &__containers {
     overflow: hidden;
+    width: 70%;
   }
-  &__list {
-    margin-bottom: 32px;
-    padding: 0px;
-
-    @media screen and (max-width: $bp-desktop) {
-      padding: 20px;
-    }
-  }
+  // &__list {
+  //   margin-bottom: 32px;
+  //   padding: 0px;
+  //   // flex-wrap: wrap;
+  //   @media screen and (max-width: $bp-desktop) {
+  //     padding: 20px;
+  //   }
+  // }
 }
 
 .arr-button {
@@ -41,4 +42,13 @@
     stroke: #ffffff;
     transition: fill 0.3s ease;
   }
+}
+
+.formats-section__containers .swiper-slide {
+  width: 350px;
+}
+
+.formats-section__containers .swiper-wrapper {
+  margin: 0px;
+  padding: 0px;
 }
