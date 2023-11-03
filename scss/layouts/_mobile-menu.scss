@@ -17,4 +17,21 @@
     top: 16px;
     right: 24px;
   }
+  &__logo {
+    padding: 20px;
+  }
+
+  &--link2 {
+    text-decoration: none;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    &--spisok {
+      margin-left: -20px;
+    }
+  }
+  &--icons {
+    padding-left: 20px;
+  }
 }
