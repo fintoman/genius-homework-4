@@ -23,6 +23,11 @@
       gap: 16px;
     }
   }
+  &__social1 {
+    &:hover {
+      fill: blue;
+    }
+  }
 
   &__burger {
     background: transparent;

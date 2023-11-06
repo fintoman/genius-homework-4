@@ -51,8 +51,22 @@
       font-weight: 400;
       line-height: normal;
       text-decoration: none;
+      &:hover {
+        color: var(--color-primary-blue);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
     &-socpac {
+      &__socsety {
+        fill: #ffffff;
+        &:hover {
+          fill: blue;
+        }
+      }
       @media screen and (min-width: $bp-desktop) {
         margin-left: 40px;
       }
