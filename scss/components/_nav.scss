@@ -2,6 +2,7 @@
   display: none;
 
   @media screen and (min-width: $bp-tablet) {
+    padding-right: 50px;
     display: flex;
     gap: 40px;
     margin-top: 18px;

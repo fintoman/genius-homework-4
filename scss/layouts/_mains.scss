@@ -7,7 +7,7 @@
   &__main-text {
     padding-top: 40px;
     display: block;
-    padding-left: 150px;
+    // text-align: center;
 
     @media screen and (max-width: $bp-tablet) {
       // max-width: 260px;
@@ -15,6 +15,9 @@
       font-size: 34px;
       padding-left: 0px;
       // margin: 0 auto;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      padding-left: 150px;
     }
   }
   &__text-inf {
@@ -34,8 +37,6 @@
       font-size: 18px;
       font-weight: 400;
       line-height: normal;
-      margin-left: -30px;
-      margin-right: 30px;
     }
   }
 }
