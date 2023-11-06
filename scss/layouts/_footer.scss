@@ -36,14 +36,14 @@
       line-height: 26px;
       flex-direction: row;
     }
-    &--contrs {
+    &-contrs {
       display: none;
       @media screen and (min-width: $bp-desktop) {
         display: block;
       }
     }
 
-    &--link2 {
+    &-link2 {
       color: #ffffff;
       font-family: 'Roboto';
       font-size: 16px;
@@ -52,12 +52,12 @@
       line-height: normal;
       text-decoration: none;
     }
-    &--socpac {
+    &-socpac {
       @media screen and (min-width: $bp-desktop) {
         margin-left: 40px;
       }
     }
-    &--copy {
+    &-copy {
       color: #747272;
       font-family: Roboto;
       font-size: 13px;
@@ -71,7 +71,7 @@
       @media screen and (min-width: $bp-tablet) {
       }
     }
-    &--img-photo {
+    &-img-photo {
       display: none;
 
       @media screen and (min-width: $bp-desktop) {
