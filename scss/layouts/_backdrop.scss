@@ -27,6 +27,15 @@
   background-image: url(/images/bkgmodal.png);
   border-radius: 48px;
   position: relative;
+
+  &__button {
+    background: transparent;
+    border: none;
+    &:hover {
+      fill: black;
+      cursor: pointer;
+    }
+  }
 }
 
 .modal-btn-close {

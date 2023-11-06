@@ -55,8 +55,13 @@
             </svg>
           </button>
           <div class="mobile-menu">
-            <button class="mobile-menu__btn-close menu-btn-close" type="button">
-              Close
+            <button
+              class="mobile-menu__btn-close menu-btn-close mobile-menu__acrossmob"
+              type="button"
+            >
+              <svg class="mobile-menu__acrossmob" width="32" height="32">
+                <use href="./images/sprite.svg#acrossmob"></use>
+              </svg>
             </button>
             <div class="mobile-menu__logo">
               <a href="#">
@@ -85,7 +90,7 @@
                   </svg>
                 </a>
                 <a href="#">
-                  <svg class="socsety" width="32" height="32">
+                  <svg class="socsety" width="24" height="24">
                     <use href="./images/sprite.svg#icon-fbicon"></use>
                   </svg>
                 </a>
@@ -460,7 +465,11 @@
 
     <div class="backdrop is-hidden">
       <div class="modal">
-        <button class="modal-btn-close" type="button">Close</button>
+        <button class="modal-btn-close modal__button" type="button">
+          <svg class="modal__button-across" width="32" height="32">
+            <use href="./images/sprite.svg#across"></use>
+          </svg>
+        </button>
         <p class="zag">Замовити <br />дзвінок</p>
 
         <form name="modal-form" autocomplete="off">

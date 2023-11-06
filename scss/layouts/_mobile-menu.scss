@@ -51,4 +51,12 @@
     font-weight: 400;
     line-height: normal;
   }
+  &__acrossmob {
+    background: transparent;
+    border: none;
+    &:hover {
+      fill: black;
+      cursor: pointer;
+    }
+  }
 }
