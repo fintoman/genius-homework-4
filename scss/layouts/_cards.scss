@@ -1,12 +1,14 @@
 .card-cont {
   display: flex;
-  gap: 56px;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
 
-  @media screen and (max-width: $bp-tablet) {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+  @media screen and (min-width: $bp-tablet) {
+    gap: 5px;
+  }
+  @media screen and (min-width: $bp-desktop) {
+    gap: 56px;
   }
 
   &__cards {

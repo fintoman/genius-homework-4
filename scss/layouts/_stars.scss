@@ -21,7 +21,7 @@
   animation-timing-function: linear;
   flex-shrink: 0;
 
-  @media screen and (max-width: $bp-tablet) {
+  @media screen and (max-width: $bp-desktop) {
     display: none;
   }
 }
@@ -35,7 +35,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   flex-shrink: 0;
-  @media screen and (max-width: $bp-tablet) {
+  @media screen and (max-width: $bp-desktop) {
     display: none;
   }
 }
