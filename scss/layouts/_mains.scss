@@ -1,17 +1,19 @@
 .main-inf {
   display: flex;
   justify-content: center;
-  gap: 28px;
-  margin-left: 100px;
+  // gap: 28px;
+  // margin-left: 100px;
 
   &__main-text {
     padding-top: 40px;
     display: block;
+    padding-left: 150px;
 
-    @media screen and (max-width: $bp-desktop) {
+    @media screen and (max-width: $bp-tablet) {
       // max-width: 260px;
       font-weight: 500;
       font-size: 34px;
+      padding-left: 0px;
       // margin: 0 auto;
     }
   }
@@ -27,7 +29,7 @@
       color: var(--color-primary-dblue, #011c44);
       font-weight: 600;
     }
-    @media screen and (max-width: $bp-desktop) {
+    @media screen and (max-width: $bp-tablet) {
       width: 320px;
       font-size: 18px;
       font-weight: 400;

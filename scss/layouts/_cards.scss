@@ -21,14 +21,13 @@
     background-color: #fff;
     width: 250px;
     flex-direction: column;
-    margin-bottom: 96px;
 
-    @media screen and (max-width: $bp-tablet) {
+    @media screen and (max-width: $bp-desktop) {
       border-radius: 32px;
       box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
       width: 316px;
       height: 180px;
-      margin-bottom: 16px;
+      margin-bottom: 30px;
     }
   }
 }
