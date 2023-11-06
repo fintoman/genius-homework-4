@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
 
   @media screen and (min-width: $bp-desktop) {
+    padding-top: 0px;
     margin-top: 94px;
     text-align: left;
   }
@@ -30,12 +31,16 @@
     @media screen and (min-width: $bp-tablet) {
       display: inline-flex;
       align-items: flex-start;
-      gap: 186px;
-      margin: 56px 100px 56px 100px;
+      gap: 100px;
+      margin: 56px 0px 0px 100px;
       position: relative;
       line-height: 26px;
       flex-direction: row;
     }
+    @media screen and (min-width: $bp-desktop) {
+      gap: 186px;
+    }
+
     &-contrs {
       display: none;
       @media screen and (min-width: $bp-desktop) {
@@ -91,9 +96,6 @@
 
       @media screen and (min-width: $bp-desktop) {
         display: block;
-        position: absolute;
-        left: 1093px;
-        top: 58px;
       }
     }
   }
